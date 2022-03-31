@@ -1,0 +1,148 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	display: flex;
+	background-color:rgb(218, 80, 55);
+	justify-content: center;
+	align-items: center;
+	padding-top: 40px;
+	width: 100%;
+	height: 600px;
+	box-sizing: border-box;
+}
+
+#infoBox {
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	height: 600px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(218, 80, 55);
+}
+
+#title {
+	background-color: rgb(255, 247, 128);
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(218, 80, 55);
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: 25px;
+	box-sizing: border-box;
+}
+
+#infoTxt {
+	background-color: rgb(255, 247, 128);
+	display: flex;
+	flex: 2;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 100%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(218, 80, 55);
+	border-radius: 15px;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+#playerTxt {
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+#instructionBox {
+	background-color: rgb(255, 247, 128);
+	display: flex;
+	flex: 3;
+	align-items: center;
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(218, 80, 55);
+	border-radius: 15px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+#gameBoard {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+	height: 600px;
+}
+
+.row {
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	width: 600px;
+	height: 600px;
+}
+
+.cell {
+	background-color: rgb(255, 247, 128);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	height: 200px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(218, 80, 55);
+	border-radius: 15px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bolder;
+	font-size: 200px;
+	box-sizing: border-box;
+}
+
+.cellX {
+	position: absolute;
+	color: rgb(218, 80, 55);
+}
+
+.cellO {
+	position: absolute;
+	color: rgb(218, 80, 55);
+}
+
+#winner {
+	background-color: rgb(255, 247, 128);
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+	height: 600px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(218, 80, 55);
+	border-radius: 15px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 50px;
+	font-weight: bolder;
+	color: rgb(218, 80, 55);
+	box-sizing: border-box;
+}
